@@ -1,0 +1,125 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #465065; 
+}
+.container{
+    width: 1200px;
+    margin: 0% auto;
+}
+.max{
+    background: url("../image/background.png") no-repeat center center/ cover;
+    padding-bottom: 300px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0px;
+}
+.header nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+ul a{
+    color: #000;
+    margin-right: 30px;
+}
+.dot{
+    color: #000;
+}
+.logo{
+    background-color: #fa5c65;
+    padding: 43px 14px 14px;
+    border-radius: 0px 0px 10px 10px;
+}
+.logo a{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo a{
+    color: white;
+}
+.icon{
+    padding: 15px;
+}
+.icon a{
+    margin-right: 20px;
+}
+.main{
+    width: 1200px;
+    padding: 60px 70px;
+    display: flex;
+    align-items: center;
+}
+.columns a{
+    color: #fa5c65;
+}
+.dot2{
+    color: #fa5c65;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column h2{
+width: 170px;
+padding-bottom: 10px;
+padding-left: 100px;
+}
+.column a{
+    width: 160px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+.column p{
+    width: 250px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-text h1 h3 p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.team{
+    padding-top: 100px;
+}
+.our-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0 auto;
+}
+.team-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.our-team h2{
+    text-transform: uppercase;
+}
+.our-team h2 p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.web {
+    color: #fa5c65;
+}
+.our-team a{
+    color: #fa5c65 ;
+}
