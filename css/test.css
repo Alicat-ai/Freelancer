@@ -100,7 +100,7 @@ padding-left: 100px;
 }
 .our-team{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 0 auto;
 }
