@@ -19,8 +19,7 @@ body{
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    margin: 0px;
+    align-items: center;
 }
 .menu ul a {
     color: #465065;
@@ -56,26 +55,35 @@ body{
 .button a {
     color: white;
 }
-.container h1 {
+
+.head h1 {
     padding-top: 170px;
     width: 460px;
     font-weight: bold;
     font-size: 40px;
 }
+
 .dot2 {
     color: #fa5c65;
 }
-.container h4 {
+
+.head p {
     padding-bottom: 20px;
     font-size: 20px;
 }
+
+.columns {
+  display: flex;
+}
+
 .column {
-    float: left;
+    /* float: left; - используется для обтекаемости элементов, но не для построения сетки!!! */
     padding-top: 50px;
     padding-right: 100px;
     padding-bottom: 50px;
     color: #465065;
 }
+
 .column h2 {
     width: 194px;
     font-size: 25px;
@@ -92,22 +100,38 @@ body{
 .columns a {
     color: #fa5c65;
 }
-.portfolio h1 {
+
+/* Portfolio */
+
+.portfolio-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio .portfolio-content_text h1 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 40px;
 }
-.portfolio p {
+.portfolio .portfolio-content_text p {
     width: 500px;
 }
-.portfolio a {
+.portfolio .portfolio-content_text a {
     color: #fa5c65;
 }
+
+
+/* Our Team */
+
+.team {
+    padding: 100px 0;
+}
+
 .team-content {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #465065;
-    width: 200px;
+    /* width: 200px; */
 }
 .our {
     font-size: 25px ;
@@ -118,7 +142,7 @@ body{
 }
 .our-team {
     display: flex;
-    justify-content:  flex-start;
+    justify-content:  space-between;
     align-items: center;
 }
 .our-team h2{
@@ -129,20 +153,39 @@ body{
     color: #fa5c65;
     font-weight: bold;
 }
-.our-team a{
+.team-content .arrow{
     color: #fa5c65 ;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
 }
 .developer{
-    padding-top: 30px;
-    height: 50px;
+    display: flex;
+    align-item: center;
+    /* padding-top: 30px; */
+    /* height: 50px; */
     color: #465065;
+    /* width: 280px; */
 }
+
 .developer img{
   padding-right: 30px;
+  height: 100%;
 }
+
+/*
+.developer .developer-content a::before/after { /*Почитать про псевдо классы и псевдо элементы
+  content: "&#x2192;"; Unicode symbols for CSS
+}
+
+*/
+
+.footer-content {
+  color: #B8C1C8;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
 .end{
     padding-top: 150px;
 }
@@ -153,9 +196,12 @@ body{
 }
 .social img{
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 30px;
 }
-.line{
-    color: #465065;
+/* .line{
+    color: #B8C1C8;
+} */
+
+.footer .line{
+    padding-bottom: 1px;
+    background-color: #B8C1C8;
 }
